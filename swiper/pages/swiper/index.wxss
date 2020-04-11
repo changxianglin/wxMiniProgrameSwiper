@@ -1,1 +1,39 @@
 /* pages/swiper/index.wxss */
+
+.wrapper {
+  width: 100%;
+  height: 320rpx;
+  line-height: 320rpx;
+  overflow: hidden;
+  text-align: center;
+}
+
+.showBig {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000000;
+}
+
+.hiddenBig {
+  display: none;
+}
+
+.content {
+ margin-top: 50%;
+}
+
+.wrapper-img {
+  height: 520rpx;
+  width: 100%;
+}
+
+.bigTop {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  color: #fff;
+}
